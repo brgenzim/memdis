@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<CCTOPItem id="1159881" transmembrane="yes" evidence="TOPDOM">
+	<Copyright>Copyrighted by the Institute of Enzymology!</Copyright>
+	<Name>Signal peptidase IB</Name>
+	<CrossRef>
+		<UniProt id="LEP_STAAC">
+			<AC>Q5HHB9</AC>
+		</UniProt>
+		<TOPDOM id="PF00717"/>
+	</CrossRef>
+	<Sequence length="191" checkSum="6c2589aad2a7b1f6f0df6663aa880fe0">
+		<Seq>MKKEILEWIISIAVAFVILFIVGKFIVTPYTIKGESMDPTLKDGERVAVN
+IVGYKTGGLEKGNVVVFHANKNDDYVKRVIGVPGDKVEYKNDTLYVNGKK
+QDEPYLNYNLKHKQGDYITGTFQVKDLPNANPKSNVIPKGKYLVLGDNRE
+VSKDSRAFGLIDEDQIVGKVSFRFWPFSEFKHNFNPENTKN</Seq>
+	</Sequence>
+	<Topology numTM="1" reliability="78.7617">
+		<Region from="1" to="7" loc="I"/>
+		<Region from="8" to="27" loc="M"/>
+		<Region from="28" to="191" loc="O"/>
+	</Topology>
+	<Predictions>
+		<Prediction name="HMMTOP">
+			<Region from="1" to="7" loc="I"/>
+			<Region from="8" to="27" loc="M"/>
+			<Region from="28" to="191" loc="O"/>
+		</Prediction>
+		<Prediction name="Memsat">
+			<Region from="1" to="14" loc="O"/>
+			<Region from="15" to="30" loc="M"/>
+			<Region from="31" to="191" loc="I"/>
+		</Prediction>
+		<Prediction name="Octopus">
+			<Region from="1" to="6" loc="I"/>
+			<Region from="7" to="27" loc="M"/>
+			<Region from="28" to="191" loc="O"/>
+		</Prediction>
+		<Prediction name="Philius">
+			<Region from="1" to="7" loc="I"/>
+			<Region from="8" to="27" loc="M"/>
+			<Region from="28" to="191" loc="O"/>
+		</Prediction>
+		<Prediction name="Phobius">
+			<Region from="1" to="5" loc="O"/>
+			<Region from="6" to="27" loc="M"/>
+			<Region from="28" to="191" loc="I"/>
+		</Prediction>
+		<Prediction name="Pro">
+			<Region from="1" to="11" loc="I"/>
+			<Region from="12" to="32" loc="M"/>
+			<Region from="33" to="191" loc="O"/>
+		</Prediction>
+		<Prediction name="Prodiv">
+			<Region from="1" to="11" loc="I"/>
+			<Region from="12" to="32" loc="M"/>
+			<Region from="33" to="191" loc="O"/>
+		</Prediction>
+		<Prediction name="Scampi">
+			<Region from="1" to="5" loc="I"/>
+			<Region from="6" to="25" loc="M"/>
+			<Region from="26" to="191" loc="O"/>
+		</Prediction>
+		<Prediction name="ScampiMsa">
+			<Region from="1" to="10" loc="I"/>
+			<Region from="11" to="30" loc="M"/>
+			<Region from="31" to="191" loc="O"/>
+		</Prediction>
+		<Prediction name="TMHMM">
+			<Region from="1" to="4" loc="O"/>
+			<Region from="5" to="27" loc="M"/>
+			<Region from="28" to="191" loc="I"/>
+		</Prediction>
+	</Predictions>
+	<Constraints>
+		<Constraint source="TOPDOM" sourceId="PF00717">
+			<ConstraintRegion from="31" to="99" loc="O"/>
+		</Constraint>
+	</Constraints>
+</CCTOPItem>
